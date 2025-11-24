@@ -1,11 +1,9 @@
 title: "Geongyu Lee Resume"
 name: "Geongyu Lee"
 description: "AI Researcher Resume Site"
-
-remote_theme: sproogen/modern-resume-theme
+markdown: kramdown
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
 
 # Required for modern-resume-theme
