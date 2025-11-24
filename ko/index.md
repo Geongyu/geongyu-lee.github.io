@@ -67,7 +67,7 @@ cell perturbation 예측 및 foundation model 기반 바이오메디컬 해석 �
 
 ## 서울과학기술대학교 (SeoulTech)  
 **데이터사이언스학과 석사 (2019–2021)**  
-- 지도교수: *황상규 교수*  
+- 지도교수: *황상흠 교수님*  
 - 논문: **Contrastive Loss를 활용한 세그멘테이션 모델 성능 향상 연구**
 
 ## 대전대학교 (Daejeon University)  

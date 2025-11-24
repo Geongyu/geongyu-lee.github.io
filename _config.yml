@@ -1,41 +1,23 @@
-# ---------------------------------------------------
-# Site Information
-# ---------------------------------------------------
-
+# -----------------------------
+# Site Info
+# -----------------------------
+repository: Geongyu/Geongyu.github.io
 version: 2
 
-# Primary Site Settings
 name: "Geongyu Lee"
 title: "AI Researcher | Computational Pathology · Multi-Omics Modeling"
 email: "gglee@omixai.com"
 phone: "+82 10 8408 2255"
-website: "https://geongyu-lee.github.io"
+website: "https://geongyu.github.io"
 
-# Dark Mode (auto: true, false, never)
 darkmode: true
 
-# ---------------------------------------------------
-# Social Links
-# ---------------------------------------------------
-
+# -----------------------------
+# Social
+# -----------------------------
 github_username: Geongyu
 linkedin_username: geongyu-lee
 googlescholar_username: 43BuluYAAAAJ
-
-twitter_username:
-stackoverflow_username:
-dribbble_username:
-facebook_username:
-flickr_username:
-instagram_username:
-xing_username:
-pinterest_username:
-youtube_username:
-orcid_username:
-
-# ---------------------------------------------------
-# Additional Links
-# ---------------------------------------------------
 
 additional_links:
   - title: Google Scholar
@@ -43,39 +25,24 @@ additional_links:
     url: "https://scholar.google.com/citations?user=43BuluYAAAAJ"
   - title: LinkedIn
     icon: fab fa-linkedin
-    url: "https://www.linkedin.com/in/geongyu-lee"
+    url: "https://www.linkedin.com/in/geongyu-lee/"
 
-# ---------------------------------------------------
-# About Section
-# ---------------------------------------------------
-
-about_profile_image: images/profile.jpg
-about_content: |
-  This site contains multilingual versions of my academic CV.
-  Select English, Korean, Japanese, or Chinese from the top navigation.
-
-# ---------------------------------------------------
-# Build Configuration
-# ---------------------------------------------------
-
-remote_theme: sproogen/modern-resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
+# -----------------------------
+# Theme + Build
+# -----------------------------
+remote_theme: "sproogen/modern-resume-theme"
 
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 exclude:
   - "Gemfile"
   - "Gemfile.lock"
   - "node_modules"
-  - "vendor/bundle/"
-  - "vendor/cache/"
-  - "vendor/gems/"
-  - "vendor/ruby/"
-  - "lib/"
-  - "scripts/"
+  - "vendor/"
   - "docker-compose.yml"
