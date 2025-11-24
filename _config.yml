@@ -2,7 +2,6 @@
 # Site Information
 # ---------------------------------------------------
 
-repository: Geongyu/Geongyu.github.io
 version: 2
 
 # Primary Site Settings
@@ -23,7 +22,6 @@ github_username: Geongyu
 linkedin_username: geongyu-lee
 googlescholar_username: 43BuluYAAAAJ
 
-# Hide unused links (theme automatically ignores empty fields)
 twitter_username:
 stackoverflow_username:
 dribbble_username:
@@ -36,7 +34,7 @@ youtube_username:
 orcid_username:
 
 # ---------------------------------------------------
-# Additional Links (shows icons)
+# Additional Links
 # ---------------------------------------------------
 
 additional_links:
@@ -48,14 +46,13 @@ additional_links:
     url: "https://www.linkedin.com/in/geongyu-lee"
 
 # ---------------------------------------------------
-# About Section (used only for theme metadata)
-# NOTE: real content lives inside index.md, ko/index.md, etc.
+# About Section
 # ---------------------------------------------------
 
 about_profile_image: images/profile.jpg
 about_content: |
   This site contains multilingual versions of my academic CV.
-  See English, Korean, Japanese, and Chinese pages using the navigation bar.
+  Select English, Korean, Japanese, or Chinese from the top navigation.
 
 # ---------------------------------------------------
 # Build Configuration
@@ -68,6 +65,7 @@ sass:
   style: compressed
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
 
 exclude:
@@ -81,9 +79,3 @@ exclude:
   - "lib/"
   - "scripts/"
   - "docker-compose.yml"
-
-remote_theme: sproogen/modern-resume-theme
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
