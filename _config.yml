@@ -1,6 +1,10 @@
+title: Geongyu Lee Resume
+name: Geongyu Lee
+
 remote_theme: sproogen/modern-resume-theme
+
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 
-name: Geongyu Lee
+markdown: kramdown
