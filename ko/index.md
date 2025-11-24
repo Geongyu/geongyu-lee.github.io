@@ -1,5 +1,5 @@
 ---
-layout: resume
+layout: default
 title: "이건규 | 이력서"
 ---
 

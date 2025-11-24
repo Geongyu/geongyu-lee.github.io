@@ -1,5 +1,5 @@
 ---
-layout: resume
+layout: default
 title: "Geongyu Lee | 履歷"
 ---
 
